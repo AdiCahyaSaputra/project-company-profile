@@ -112,6 +112,7 @@
     .content-main2 {
         width: 100%;
         margin: 25px 0;
+        justify-content: space-between;
     }
 
     .graph-illus {
@@ -121,6 +122,10 @@
         transition: transform .5s ease, right .5s .5s ease-out;
     }
 
+
+    .img-1-illus, .img-2-illus {
+        height: 200px;
+    }
     .content-main2:hover .graph-illus {
         transform: translateY(-25px);
         left: calc(100% - 100px);
@@ -144,7 +149,12 @@
     }
 
     .graph {
+        display: block;
         transition: all .9s .3s ease;
+    }
+
+    .line-1, .line-2, .line-3, .line-4 {
+        width: 15px;
     }
 
     .content-main2:hover .line-1 {
