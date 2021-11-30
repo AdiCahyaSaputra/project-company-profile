@@ -49,6 +49,12 @@ body {
     grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.marquee-text {
+    color:white;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
 
 /* Nav */
 .container {
